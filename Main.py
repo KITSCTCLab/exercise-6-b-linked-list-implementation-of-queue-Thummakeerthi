@@ -5,7 +5,7 @@ class Node:
 
 
 class Queue:
-  def _init_(self):
+  def __init__(self):
     self.head = None
     self.last = None
 
@@ -30,7 +30,7 @@ class Queue:
 
 
 # Do not change the following code
-queue = Queue()
+queue = Queue
 operations = []
 for specific_operation in input().split(','):
     operations.append(specific_operation.strip())
